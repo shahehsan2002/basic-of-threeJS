@@ -60,7 +60,7 @@ const material = new THREE.MeshLambertMaterial({
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
-// 4. Add lighting
+// 4. Add lighting......
 const light = new THREE.DirectionalLight(0x9cdba6, 10);
 light.position.set(1, 1, 1);
 scene.add(light);
